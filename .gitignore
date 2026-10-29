@@ -1,0 +1,10 @@
+# large / private / regenerable files (not pushed)
+checkpoints/
+demo/cache/
+demo_private/
+sources/
+deliverables.zip
+__pycache__/
+*.pyc
+run.pid
+*.tmp

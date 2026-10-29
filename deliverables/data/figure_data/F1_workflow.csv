@@ -1,0 +1,8 @@
+step,text
+0,MS MARCO load
+1,Pick D pairs
+2,Train (3 seeds)
+3,Evaluate
+4,Aggregate
+5,Fit
+6,Figures/reports

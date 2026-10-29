@@ -1,0 +1,15 @@
+{
+  "model_key": "tiny_10000i_3ep",
+  "model_name": "google/bert_uncased_L-2_H-128_A-2",
+  "alias": "tiny",
+  "non_emb_params": 512128,
+  "total_params": 4484992,
+  "train_instances": 10000,
+  "epochs": 3,
+  "lr": 0.0001,
+  "train_loss": 1.598,
+  "eval_loss": 0.7424,
+  "train_time_sec": 22.5,
+  "eval_time_sec": 17.14,
+  "total_time_sec": 44.99
+}

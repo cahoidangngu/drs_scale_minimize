@@ -1,0 +1,18 @@
+{
+  "model_key": "base_10000i_3ep_seed44",
+  "model_name": "google/bert_uncased_L-12_H-768_A-12",
+  "alias": "base",
+  "non_emb_params": 86235648,
+  "non_emb_params_no_fc": 85645056,
+  "output_fc_params": 590592,
+  "total_params": 110072832,
+  "train_instances": 10000,
+  "epochs": 3,
+  "lr": 0.0001,
+  "seed": 44,
+  "train_loss": 0.2078,
+  "eval_loss": 0.1492,
+  "train_time_sec": 200.89,
+  "eval_time_sec": 193.69,
+  "total_time_sec": 401.11
+}

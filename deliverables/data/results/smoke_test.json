@@ -1,0 +1,7 @@
+{
+  "smoke_train_time_sec": 1.02,
+  "smoke_eval_time_sec": 2.86,
+  "smoke_loss": 7.4061,
+  "total_smoke_time_sec": 10.04,
+  "samples_per_sec": 490.2
+}

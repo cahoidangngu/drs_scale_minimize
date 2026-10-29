@@ -1,0 +1,15 @@
+{
+  "model_key": "small_datasize_5000i_3ep",
+  "model_name": "google/bert_uncased_L-4_H-512_A-8",
+  "alias": "small_D5000",
+  "non_emb_params": 13266176,
+  "total_params": 29157632,
+  "train_instances": 5000,
+  "epochs": 3,
+  "lr": 0.0001,
+  "train_loss": 0.4819,
+  "eval_loss": 0.2831,
+  "train_time_sec": 21.59,
+  "eval_time_sec": 31.91,
+  "total_time_sec": 59.21
+}

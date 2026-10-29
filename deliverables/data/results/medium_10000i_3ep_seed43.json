@@ -1,0 +1,18 @@
+{
+  "model_key": "medium_10000i_3ep_seed43",
+  "model_name": "google/bert_uncased_L-8_H-512_A-8",
+  "alias": "medium",
+  "non_emb_params": 25875712,
+  "non_emb_params_no_fc": 25481728,
+  "output_fc_params": 393984,
+  "total_params": 41767168,
+  "train_instances": 10000,
+  "epochs": 3,
+  "lr": 0.0001,
+  "seed": 43,
+  "train_loss": 0.3206,
+  "eval_loss": 0.2278,
+  "train_time_sec": 76.34,
+  "eval_time_sec": 60.28,
+  "total_time_sec": 142.53
+}

@@ -1,0 +1,18 @@
+{
+  "model_key": "mini_10000i_3ep_seed44",
+  "model_name": "google/bert_uncased_L-4_H-256_A-4",
+  "alias": "mini",
+  "non_emb_params": 3422208,
+  "non_emb_params_no_fc": 3224832,
+  "output_fc_params": 197376,
+  "total_params": 11367936,
+  "train_instances": 10000,
+  "epochs": 3,
+  "lr": 0.0001,
+  "seed": 44,
+  "train_loss": 0.7291,
+  "eval_loss": 0.3896,
+  "train_time_sec": 35.04,
+  "eval_time_sec": 22.8,
+  "total_time_sec": 63.31
+}

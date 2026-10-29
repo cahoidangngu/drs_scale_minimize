@@ -1,0 +1,6 @@
+stage
+tokenize
+shared BERT
+mean pooling
+Linear H->768
+dot product

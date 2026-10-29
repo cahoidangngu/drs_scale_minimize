@@ -1,0 +1,87 @@
+{
+  "models": {
+    "google/bert_uncased_L-2_H-128_A-2": {
+      "hidden": 128,
+      "layers": 2,
+      "heads": 2,
+      "intermediate": 512,
+      "non_emb_with_fc": 512128,
+      "non_emb_no_fc": 413056,
+      "bert_pooler": 16512,
+      "transformer_layers_only": 396544,
+      "output_fc": 99072,
+      "total": 4484992,
+      "with_fc_in_2pow20_units": 0.4884033203125,
+      "analytic_layers": 396544,
+      "analytic_pooler": 16512
+    },
+    "google/bert_uncased_L-4_H-256_A-4": {
+      "hidden": 256,
+      "layers": 4,
+      "heads": 4,
+      "intermediate": 1024,
+      "non_emb_with_fc": 3422208,
+      "non_emb_no_fc": 3224832,
+      "bert_pooler": 65792,
+      "transformer_layers_only": 3159040,
+      "output_fc": 197376,
+      "total": 11367936,
+      "with_fc_in_2pow20_units": 3.263671875,
+      "analytic_layers": 3159040,
+      "analytic_pooler": 65792
+    },
+    "google/bert_uncased_L-4_H-512_A-8": {
+      "hidden": 512,
+      "layers": 4,
+      "heads": 8,
+      "intermediate": 2048,
+      "non_emb_with_fc": 13266176,
+      "non_emb_no_fc": 12872192,
+      "bert_pooler": 262656,
+      "transformer_layers_only": 12609536,
+      "output_fc": 393984,
+      "total": 29157632,
+      "with_fc_in_2pow20_units": 12.651611328125,
+      "analytic_layers": 12609536,
+      "analytic_pooler": 262656
+    },
+    "google/bert_uncased_L-8_H-512_A-8": {
+      "hidden": 512,
+      "layers": 8,
+      "heads": 8,
+      "intermediate": 2048,
+      "non_emb_with_fc": 25875712,
+      "non_emb_no_fc": 25481728,
+      "bert_pooler": 262656,
+      "transformer_layers_only": 25219072,
+      "output_fc": 393984,
+      "total": 41767168,
+      "with_fc_in_2pow20_units": 24.677001953125,
+      "analytic_layers": 25219072,
+      "analytic_pooler": 262656
+    },
+    "google/bert_uncased_L-12_H-768_A-12": {
+      "hidden": 768,
+      "layers": 12,
+      "heads": 12,
+      "intermediate": 3072,
+      "non_emb_with_fc": 86235648,
+      "non_emb_no_fc": 85645056,
+      "bert_pooler": 590592,
+      "transformer_layers_only": 85054464,
+      "output_fc": 590592,
+      "total": 110072832,
+      "with_fc_in_2pow20_units": 82.24072265625,
+      "analytic_layers": 85054464,
+      "analytic_pooler": 590592
+    }
+  },
+  "output_fc_init_differs_across_seeds": {
+    "42-43": true,
+    "42-44": true,
+    "43-44": true
+  },
+  "output_fc_init_reproducible_same_seed": true,
+  "torch": "2.11.0+cu128",
+  "transformers": "4.52.4"
+}
